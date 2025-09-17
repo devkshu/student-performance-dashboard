@@ -1,15 +1,9 @@
 📊 Cognitive Skills & Student Performance Dashboard
+
 🚀 Project Overview
 
 This project analyzes student cognitive skills and assessment performance using data analysis + machine learning (Jupyter Notebook) and presents the insights in an interactive Next.js dashboard.
 
-The goal is to uncover:
-
-Relationships between cognitive skills (attention, focus, retention, comprehension) and scores
-
-Patterns in top vs. bottom performers
-
-Persona-based profiles of students
 
 📂 Deliverables
 
@@ -25,37 +19,13 @@ Persona-based profiles of students
 project-root/
 │── data/                     # JSON datasets (students, persona, metrics)
 │── notebooks/
-│   └── analysis.ipynb        # Jupyter Notebook with analysis + ML
+│   └── student_analysis.ipynb        # Jupyter Notebook with analysis + ML
 │── dashboard/                # Next.js app (frontend dashboard)
 │   ├── app/...
 │   └── package.json
 │── requirements.txt          # Python dependencies for notebook
 │── README.md
 
-⚙️ Setup Instructions
-1️⃣ Run Notebook (Python + Jupyter)
-# clone repo
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-
-# create environment (optional)
-python -m venv venv
-source venv/bin/activate  # (Linux/Mac)
-venv\Scripts\activate     # (Windows)
-
-# install dependencies
-pip install -r requirements.txt
-
-# run notebook
-jupyter notebook notebooks/analysis.ipynb
-
-2️⃣ Run Dashboard (Next.js)
-cd dashboard
-npm install
-npm run dev
-
-
-Then open: 👉 http://localhost:3000
 
 📊 Dashboard Features
 
@@ -71,27 +41,24 @@ Charts →
 
 Table → Detailed student records
 
-Insights → Key findings (median, range, top/bottom performers, score consistency)
+Insights → Key findings 
 
-🔎 Key Findings (from Notebook + Dashboard)
+🔎 Key Findings:
 
-👉 (Replace with your actual results)
-
-Average score: XX
-
-Median score: XX
-
-Highest performer: Student X (score: XX)
-
-Lowest performer: Student Y (score: XX)
-
-Attention vs. Score correlation: XX
-
-Personas show that students with higher retention tend to have higher scores.
+- Average assessment score is 66.75
+- Median score is 65.78
+- Highest score: Priya Nambiar (95.08)
+- Lowest score: Maya Shetty (37.56)
+- 94 students scored above average, 106 scored below average
+- Score range is 57.52 points
+- Score consistency (Std. Deviation): 11.62
+- Top performers: Priya Nambiar (95.08), Zara Sharma (94.15), Kabir Rao (91.88)
+- Lowest performers: Maya Shetty (37.56), Arya Naik (43.35), Ankit Gulati (44.58)
 
 🌐 Deployment
 
-Dashboard deployed on Vercel: https://your-vercel-link.vercel.app
+git-hub deployment: https://github.com/devkshu/student-performance-dashboard/
+dashboard deployment:
 
 🛠️ Tech Stack
 
