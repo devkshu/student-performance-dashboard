@@ -58,7 +58,7 @@ Insights → Key findings
 🌐 Deployment
 
 git-hub deployment: https://github.com/devkshu/student-performance-dashboard/
-dashboard deployment:
+dashboard deployment: https://student-performance-dashboard-alpha.vercel.app
 
 🛠️ Tech Stack
 
