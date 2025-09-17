@@ -1,0 +1,10 @@
+{
+    "Linear Regression": {
+        "R2": 0.877,
+        "RMSE": 4.437
+    },
+    "Random Forest": {
+        "R2": 0.844,
+        "RMSE": 5.009
+    }
+}
